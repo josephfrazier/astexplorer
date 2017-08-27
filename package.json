@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "postinstall": "(cd website && yarn --production=false && yarn build) && (cd server && yarn --production=false)",
+    "start": "cd server && yarn start"
+  }
+}
